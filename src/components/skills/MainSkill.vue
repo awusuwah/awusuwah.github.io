@@ -1,5 +1,7 @@
 <template>
-  <div class="flex py-4 space-x-4 bg-gray-900 rounded-lg hover:shadow-lg">
+  <div
+    class="flex py-4 space-x-4 transition-all bg-gray-900 rounded-lg cursor-pointer  hover:shadow-lg"
+  >
     <div class="flex items-center justify-center w-1/3 p-8">
       <div v-html="src" class="w-full"></div>
     </div>
